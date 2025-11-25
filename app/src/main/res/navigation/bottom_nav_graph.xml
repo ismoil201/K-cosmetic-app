@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav_graph"
+    app:startDestination="@id/burgerMenuFragment">
+
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="kr.dev.bureger_house.view.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="kr.dev.bureger_house.view.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="kr.dev.bureger_house.view.MoreFragment"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" />
+    <fragment
+        android:id="@+id/burgerMenuFragment"
+        android:name="kr.dev.bureger_house.view.BurgerMenuFragment"
+        android:label="fragment_burger_menu"
+        tools:layout="@layout/fragment_burger_menu" />
+    <fragment
+        android:id="@+id/drinkMenuFragment"
+        android:name="kr.dev.bureger_house.view.DrinkMenuFragment"
+        android:label="fragment_drink_menu"
+        tools:layout="@layout/fragment_drink_menu" />
+</navigation>
