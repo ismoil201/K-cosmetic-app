@@ -11,7 +11,7 @@ import kr.dev.bureger_house.adapters.FavoriteAdapter.CallBack
 import kr.dev.bureger_house.databinding.FragmentFavoriteBinding
 import kr.dev.bureger_house.models.BurgerData
 
-class FavoriteFragment : Fragment() {
+class CartFragment : Fragment() {
 
     private val PREF_NAME = "MyPrefs"
     private val KEY_NAME = "burger"

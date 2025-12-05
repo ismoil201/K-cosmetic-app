@@ -1,6 +1,5 @@
 package kr.dev.bureger_house.view
 
-import android.R.attr.name
 import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -14,7 +13,7 @@ import kr.dev.bureger_house.databinding.FragmentBurgerMenuBinding
 import kr.dev.bureger_house.models.BurgerData
 
 
-class BurgerMenuFragment : Fragment() {
+class CosmeticMenuFragment : Fragment() {
 
      val PREF_NAME: String = "MyPrefs"
 

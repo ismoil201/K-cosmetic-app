@@ -20,10 +20,6 @@ class MainFragment : Fragment() {
     val Drink_NAME: String = "vottar"
     lateinit var binding : FragmentMainBinding
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
